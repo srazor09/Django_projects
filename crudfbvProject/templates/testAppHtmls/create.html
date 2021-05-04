@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+{% extends 'testAppHtmls/base.html' %}
+  {% block body_block %}
+    <h1>Employee Insertion Dashboard</h1>
+
+    <form method="post">
+<!--      <table border="1">
+        {{form}}    #A table format will come
+      </table>  -->
+      {{form.as_p}}  <!-- a bootstarp boxes will come -->
+      {% csrf_token %}
+      <input type="submit" class="btn btn-primary btn-lg" value="Insert Record!">
+    </form>
+
+  {% endblock %}

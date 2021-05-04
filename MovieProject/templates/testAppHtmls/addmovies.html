@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static "/css/moviedem.css" %}">
+    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300&family=Lato&family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container" align="center">
+      <div class="jumbotron">
+        <h1>Add movie Ratings</h1>
+        
+        <form  method="post">
+          {{form.as_p}}
+          {% csrf_token %}
+          <input type="submit" class="btn btn-primary" value="Add it!">
+        </form>
+    </div>
+  </body>
+</html>

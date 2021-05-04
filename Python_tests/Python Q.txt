@@ -1,0 +1,100 @@
+	Q. Python is interpreted language why?
+Ans-  Yes , but it internally compile the code when we run .py file , and compile code store in .pyc file.
+	Explicitly we don't need to compile the code.
+	Q. What is pip , how to check list of python modules on machine?
+Ans- To install python models it is use , pip install python_module_name
+	Q. What is .pyc file?
+Ans- __pycache__ is the folder where .pyc file stores , .pyc files are compiled code files, 
+	Q. Shallow copy , Deepcopy
+Ans- We need to use copy module to create shallow and deepcopy objects
+	Q. __name__ == '__main__' ?
+	Q. What is __init__ method?
+	Q. What is self and cls key word?
+	Q. How to take user input in python?
+	Q. What are data types in python?
+Ans- int, string, list, array(numpy module require), tuple, dictionary(dict), set, complex(rarely ask)
+	Q. Diff between list and tuple?
+	Q. Diff between list and array?
+	Q. Diff between list and dict?
+	Q. Diff between set and dict?
+	Q. Mutable and immutable?
+	Q. How to convert dict to json object?
+	Q. What is decorator?
+	Q. How to define decorator?
+	Q. What is generator?
+	Q. What is iterator?
+	Q. What is yield ?
+	Q. What is global , local , nonlocal  ?
+	Q. Class method , instance method, static method and there uses?
+	Q. What is Garbage collector?
+	Q. How Memory Management happen in python?
+	Q. What is GIL?
+	Q. What is multithreading and limitations in python?
+	Q. How many ways to define multithreading?
+	Q. What is multiprocessing how to use it and what are pros and cons ?
+	Q. Lambda function?
+	Q. List comprehension?
+	Q. Map , Filter , reduce ?
+	Q. Asyncio ---> rarely ask
+	Q. What is Serializer ?
+	Q. Super() how to use?
+	Q. OOPS concept ?
+	Q. Overloading and overriding in python?
+	Q. Inheritance in python?
+	Q. MRO- Method resolution order( c3 algorithm)
+	Q. Function calling in python happen by reference or by value?  
+	Q. Exception handling in python? (Try, except, else, finally )
+	Q. How do DB connection from python? (MySQL and Oracle , Postgres)
+	Q. Which python module you use in current project and why?
+	Q. Design patterns in python ? Singleton ( rarely ask)
+	Q. Dict functions and list function?
+        Q. Hashing mechanism ? Rarely ask
+
+
+################################################
+************DJANGO:*****************************
+#################################################
+
+	Q. Why Django, What are other web development framework?
+	Q. Current django version?
+	Q. MVT design in django?
+	Q. Setting.py use in django?
+	Q. Application severs use for django?
+	Q. Wsgi.py ? Where it work?
+	Q. Request flow in dajngo?
+	Q. Views in django?
+	Q. Class base view and function base view?
+	R. Model in django?( Model is table)
+	Q. Model inheritance in django?
+	Q. Different fields in model?
+	Q. Template view in django? 
+	Q. Mixins in django?
+	Q. Middleware in django?
+	Q. Custom middleware in django?
+	Q. How to create new application?
+	Q. What is super user?
+	Q. Default database in django?
+	Q. How to configure DB schema in django?
+	Q. Rest framework in dajngo?
+	Q. Where we add application in settings.py?
+	Q. Token authentication , Oauth, JWT.
+
+----------------------------------------------------------------------
+Module to learn
+
+Asyncio
+Collections
+Csv
+functools
+Uuid
+Hash lib
+http
+Json
+Logging
+Multiprocessing
+re
+Shutil
+Units and pytest
+urllib
+
+

@@ -1,0 +1,18 @@
+h1{
+  color: red;
+}
+
+table{
+
+  border: 2px solid;
+
+}
+td{
+  border: 2px solid;
+  color: black;
+}
+
+thead{
+  background: olive;
+  color: white;
+}

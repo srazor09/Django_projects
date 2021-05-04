@@ -1,0 +1,37 @@
+body{
+  background:
+  url(https://images.unsplash.com/photo-1515339760107-1952b7a08454?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .jumbotron{
+  margin-top: 200px;
+  background: orange:
+  color:white;
+  font-family: 'Karantina', cursive;
+}
+
+table,tr,td,thead,th{
+  border: 2px; solid white;
+  font-size: 30px;
+  color: white;
+  background: red;
+  margin: auto;
+}
+
+thead,th{
+  border:2px solid red;
+  font-size: 30px;
+  color: blue;
+  margin: auto;
+  background: yellow;
+}
+
+h1{
+  text-align: center;
+}
+
+.container form{
+  border: 2px solid orange;
+}
